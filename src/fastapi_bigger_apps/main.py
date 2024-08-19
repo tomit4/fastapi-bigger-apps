@@ -4,8 +4,6 @@ import uvicorn
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI
 
-from fastapi_bigger_apps import dependencies
-
 from .dependencies import get_query_token, get_token_header
 from .internal import admin
 from .routers import items, users

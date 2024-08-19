@@ -45,10 +45,10 @@ need to instantiate your virtual environment like so:
 source .venv/bin/activate
 ```
 
-After that, you should be all set to simply run the provided `start` script:
+After that, you should be all set to simply run the provided `dev` script:
 
 ```sh
-rye run start
+rye run dev
 ```
 
 The port utilized for this project is 5173. So once you see the fastapi-cli's

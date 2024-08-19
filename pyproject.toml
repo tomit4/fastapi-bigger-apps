@@ -22,4 +22,4 @@ allow-direct-references = true
 packages = ["src/fastapi_bigger_apps"]
 
 [project.scripts]
-start = "fastapi_bigger_apps.main:main"
+dev = "fastapi_bigger_apps.main:main"
