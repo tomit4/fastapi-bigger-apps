@@ -14,7 +14,9 @@ annotated-types==0.7.0
     # via pydantic
 anyio==4.4.0
     # via starlette
+black==24.8.0
 click==8.1.7
+    # via black
     # via uvicorn
 fastapi==0.112.1
     # via fastapi-bigger-apps
@@ -22,6 +24,15 @@ h11==0.14.0
     # via uvicorn
 idna==3.7
     # via anyio
+isort==5.13.2
+mypy-extensions==1.0.0
+    # via black
+packaging==24.1
+    # via black
+pathspec==0.12.1
+    # via black
+platformdirs==4.2.2
+    # via black
 pydantic==2.8.2
     # via fastapi
 pydantic-core==2.20.1
