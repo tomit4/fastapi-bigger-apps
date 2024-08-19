@@ -28,7 +28,7 @@ You'll also need to simply copy the included `env-sample` file as a `.env` to
 adjust from the default `HOST` and `PORT`:
 
 ```sh
-cp env-local .env
+cp env-sample .env
 ```
 
 Once cloned and inside the project's directory. go ahead and use rye to initiate
