@@ -38,9 +38,14 @@ the virtual environment (defaults to a `.venv` directory):
 rye sync
 ```
 
-This will also install all necessary dependencies needed. After that, simply run
-the `start` script provided at the end of the included pyproject.toml config
-file.
+This will also install all necessary dependencies needed. After that, you'll
+need to instantiate your virtual environment like so:
+
+```sh
+source .venv/bin/activate
+```
+
+After that, you should be all set to simply run the provided `start` script:
 
 ```sh
 rye run start
